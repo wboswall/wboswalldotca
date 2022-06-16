@@ -4,11 +4,11 @@
  *Copyright (c) 2022 by William Boswall
  *No content in all or in part of this CSS file shall be found anywhere else in cyberspace. No person(s) or bot(s) is or are allowed to copy this file. 
  *Date Created: 03/28/2022
- *Date Modified: 04/15/2022
- *Pre Version history: 0.0.1.0alpha
+ *Date Modified: 04/15/2022 06/16/2022
+ *Pre Version history: 0.0.1.0 alpha 0.0.2.0 alpha
  *Official version history:
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&family=Comfortaa:wght@300&family=Joan&family=Nuosu+SIL&display=swap');
 /*
  * Custom global rules
  */
@@ -19,19 +19,25 @@
 */
 @media screen 
 {
-	article h1 {
-	    background-color:rgb(116, 20, 20);
+	article {
+		background-color:#FFFFFF;
+		font-family: 'Charis SIL', serif;
 	}
-	
-	
+	article h1 {
+	    background-color:#D3A3D8;
+		font-family: 'Charis SIL', serif;
+	}
+		
 	figure
 	{
 		background-color: #FFFFFF;
+		
 	}
 
 	figcaption
 	{
 		background-color: #FFFFFF;
+		font-family: 'Joan', serif;
 	}
 
 	img
@@ -42,10 +48,12 @@
 	p
 	{
 		background-color: #FFFFFF;
+		font-family: 'Nuosu SIL' , serif;
 	}
+
 	body {
 		font-family: Arial, Helvetica, sans-serif;
-  		background-color: #d4d4d4;
+  		background-color: #D4D4D4;
 	}
 
 	menu, li{
@@ -57,7 +65,9 @@
 	padding: 20px;
 	width: 50%;
 	background-color: #FFFFFF;
+	font-family: 'Nuosu SIL', serif;
 	}
+
 	a {
 	padding: 8px;
 	}
@@ -69,7 +79,12 @@
 	/*
 	 * Custom CSS classes
 	 */
-
+	.Jumbotron
+	{
+		background-color:#6596F0;
+		color:#000000;
+		font-family: 'Comfortaa', cursive;
+	}
 	.gAds
 	{
 		background-color: #FFFFFF;
@@ -104,11 +119,9 @@
 	.welcome
 	{
 		font-family: Tahoma, Sans Serif;
-		color:blue;
+		color:#0921AA;
 		font-size: 20pt;
 	}
-
-	
 	
 
 	/*
@@ -141,11 +154,6 @@
 	 *End of status boxes
 	*/
 
-
-
-
-
-
 	/*
 	 * End of custom CSS classes
 	 */
@@ -159,18 +167,10 @@
 	    background-color: aquamarine !important;
 	    color:blueviolet !important;
 	}
-
-
-
-
-
-
 	 /*
 	 * End of custom CSS #id(s).  
-	 */
- 
+	 */ 
 }
-
 
 @media print 
 {
@@ -183,5 +183,3 @@
 	
 	
 }
-
-
