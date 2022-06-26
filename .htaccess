@@ -1,0 +1,5 @@
+Deny from all
+RewriteEngine On
+RewriteCond %{HTTP_HOST} wboswall\.ca [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://wboswall.ca/$1 [R,L]
